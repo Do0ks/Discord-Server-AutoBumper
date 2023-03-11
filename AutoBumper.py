@@ -18,9 +18,9 @@ def bump():
         global a
         x=x+1
 
+        #google this.
         profile = FirefoxProfile("Your_Firefox_Profile_Location")
         s=Service('Your_Geckodriver_Location')
-        #google this.
 
         driver = webdriver.Firefox(profile, service=s)
         driver.maximize_window()
